@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main_header.h"
 
 /*function declration*/
 void openFile(char *fileName);
@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 
 	if (argc < MIN_ARGS)
 	{
-		printf("ERROR: No file name, please provide the compiler with a least one file to run on.\n");
+		printf("ERROR: No file name, please provide the script with a least one file to run on.\n");
 		return 1;
 	}
 

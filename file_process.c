@@ -1,3 +1,5 @@
+#include "main_header.h"
+#include "structs.h"
 #include "file_process.h"
 
 void openFile(char *fileName)
@@ -15,5 +17,5 @@ void openFile(char *fileName)
 
 void fileReadProccessManager(FILE *file)
 {
-    printf("yossi");
+    printf("size of %d\n",sizeof(WordMemory));
 }
